@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: rgba(49, 49, 49, 0.98);
+  --third-color:#fafafa;
+}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap'); 
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  height: 56px;
+  position: sticky;
+  top: 0;
+  background-color: var(--secondary-color);
+  max-width: 998;
+  display: FLEX;
+  align-items: center;
+}
+.nav-list {
+  align-items: center;
+  text-decoration: none;
+  display: flex; 
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  
+}
+li {
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;  
+}
+ a {
+  color:var(--primary-color);
+  text-decoration: none;
+}
+.stand-module {
+  padding: 23px;
+    background-color: var(--third-color);
+  line-height: 3rem;
+}
+.module-a {
+  color: blue; 
+}
+.stand-h2 {
+  text-align: center;
+  font-family: 'Patua One', cursive;
+  font-size: 2rem;
+}
+.stand-h3 {
+  text-align: center;
+  font-family: 'Old Standard TT', serif;
+  font-size: 1.5rem;
+}
+.module-list {
+display: flex;
+justify-content: space-around;
+
+
+}
+

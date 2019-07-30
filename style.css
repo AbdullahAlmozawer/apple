@@ -1,9 +1,9 @@
 :root {
   --primary-color: #fff;
   --secondary-color: rgba(49, 49, 49, 0.98);
-  --third-color:#fafafa;
+  --third-color: #fafafa;
 }
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap'); 
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 
 html {
   box-sizing: border-box;
@@ -29,43 +29,75 @@ html {
 .nav-list {
   align-items: center;
   text-decoration: none;
-  display: flex; 
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  
 }
 li {
   list-style: none;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 14px;  
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
 }
- a {
-  color:var(--primary-color);
+a {
+  color: var(--primary-color);
   text-decoration: none;
 }
 .stand-module {
-  padding: 23px;
-    background-color: var(--third-color);
+  padding: 2rem;
+  background-color: var(--third-color);
   line-height: 3rem;
+  text-align: center;
 }
 .module-a {
-  color: blue; 
+  color: blue;
 }
 .stand-h2 {
-  text-align: center;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
   font-size: 2rem;
 }
 .stand-h3 {
-  text-align: center;
-  font-family: 'Old Standard TT', serif;
+  font-family: "Old Standard TT", serif;
   font-size: 1.5rem;
 }
 .module-list {
-display: flex;
-justify-content: space-around;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.module-list li {
+  margin: -0.2rem 1rem;
+  font-size: 1em;
+}
+.homepage-section {
+  padding: 2rem;
+  background-color: var(--third-color);
+  text-align: center;
+  line-height: 4rem;
+  margin-top: 0.5rem;
+}
+.homepage-a {
+  color: blue;
+}
+.homepage-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage-h2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 2rem;
 
 }
+.homepage-h3 {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.5rem;
+  line-height: 1em;
+}
+.homepage-list li {
+  margin: -0.2rem 0.5rem;
+  font-size: 1rem;
+}
+.xr-img {
 
+}

@@ -87,17 +87,47 @@ a {
 .homepage-h2 {
   font-family: 'Special Elite', cursive;
   font-size: 2rem;
-
 }
 .homepage-h3 {
   font-family: "Old Standard TT", serif;
   font-size: 1.5rem;
   line-height: 1em;
 }
+.homepage-p {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.5rem;
+  line-height: 1em;
+}
+
 .homepage-list li {
   margin: -0.2rem 0.5rem;
   font-size: 1rem;
 }
-.xr-img {
+.xr-img img{
+  width: 60%;
+}
+.xs-img img{
+  width: 40%;
+}
+.homepage-watch {
+  padding: 2rem;
+  background-color: var(--third-color);
+  text-align: center;
+  line-height: 2.5rem;
+  margin-top: 0.5rem;
+}
+.heading2-watch {
+  font-family: 'Special Elite', cursive;
+  font-size: 3rem;
+}
+.heading4-watch {
+  font-size: 1rem;
+}
+.heading3-watch {
+  font-family: "Old Standard TT", serif;
+  font-size: 1.5rem;
+}
+.watch-img img{
+  width: 40%
 
 }

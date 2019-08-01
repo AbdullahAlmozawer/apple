@@ -63,7 +63,7 @@
   .winkelen p {
       text-align: center;
     margin-left:1rem;
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
   footer {
     background-color: var(--third-color);

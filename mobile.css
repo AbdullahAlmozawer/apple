@@ -6,6 +6,16 @@
     align-items: center;
     width: 100%;
   }
+  .module-list {
+    display:grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+  }
+  .module-list li {
+    margin: -0.2rem 1rem;
+    font-size: 1em;
+  }
 .cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -14,7 +24,7 @@
   }
 .price {
     text-align: center;
-    font-size: 0.5rem; 
+    font-size: 0.8rem; 
   border-bottom: rgb(226, 207, 207) solid 1px;
   padding-bottom: 1px;
 }
@@ -61,14 +71,15 @@
     line-height: 2rem;
   }
   .footer-p p {
-    margin-left: 1rem;
+    margin: 2.5rem;
     font-family: 'Spectral', serif;
     color: rgba(45, 62, 80, 0.774);
   
   }
   .list-footer {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr;
+text-align: center;
     
   }
   footer li a {

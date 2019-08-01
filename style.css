@@ -98,7 +98,6 @@ a {
   font-size: 1.5rem;
   line-height: 1em;
 }
-
 .homepage-list li {
   margin: -0.2rem 0.5rem;
   font-size: 1rem;
@@ -133,17 +132,14 @@ a {
 .show-case {
 
 }
-
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0.5rem;
   margin: 0.5rem;
-  
-
 }
 .cards img {
-  width: 65%;
+  width: 60%;
 }
 .card-1 {
   text-align: center;
@@ -185,7 +181,6 @@ a {
   font-size: 2rem;
   line-height: 2.5rem;
   padding: 1.5rem;
-
 }
 .li-c1 {
   list-style: none;
@@ -195,7 +190,6 @@ a {
 .li-c1 a {
   color: blue;
 }
-
 .heading2-light {
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
@@ -221,20 +215,17 @@ a {
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
   color: #fff;
-
 }
 .heading3-dark {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 1.5rem;
   color: #fff;
-
 }
 .list-dark {
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .li-dark a {
   color: blue;
@@ -242,5 +233,41 @@ a {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
   margin: 0rem 1rem;
-
+}
+.price {
+  text-align: center;
+  background-color: var(--third-color);
+  font-family: 'Cinzel', serif;
+  font-size: 19px;
+color:rgb(185, 176, 176);
+margin: 0rem 0.5rem 15px 0.5rem; 
+border-bottom: rgb(226, 207, 207) solid 2px;
+padding-bottom: 8px;
+z-index: 2;
+}
+.over-apple {
+  background-color: var(--third-color);
+  margin: 0.5rem;
+}
+.container li a {
+  color: gray;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+}
+.heading-apple {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 1rem; 
+}
+.container li {
+  font-family: 'Martel', serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+.bedrijven, .gezondheid{
+  margin-top: 1.5rem;
+}
+.waarden {
+  margin-top: 1.5rem;
 }

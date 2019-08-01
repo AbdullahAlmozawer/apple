@@ -172,7 +172,7 @@ a {
 }
 .card-6 {
   text-align: center;
-  background-color:#4a8a8a;
+  background-color:#4ea7ada9;
   line-height: 2.5rem;
   padding: 1.5rem;
 }
@@ -248,13 +248,15 @@ z-index: 2;
 .over-apple {
   background-color: var(--third-color);
   margin: 0.5rem;
+  
 }
 .container li a {
   color: gray;
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+margin-left: 10rem;  
 }
 .heading-apple {
   font-family: 'Hind Madurai', sans-serif;
@@ -264,10 +266,49 @@ z-index: 2;
   font-family: 'Martel', serif;
   font-size: 1rem;
   line-height: 1.75rem;
+  letter-spacing:normal;
 }
 .bedrijven, .gezondheid{
   margin-top: 1.5rem;
 }
 .waarden {
   margin-top: 1.5rem;
+}
+.winkelen  {
+  font-family: 'Spectral', serif;
+  font-size: 1.09rem;
+  color: rgba(45, 62, 80, 0.774);
+  border-bottom: rgb(226, 207, 207) solid 2px;
+padding-bottom: 8px;
+z-index: 2;
+margin: 2rem 1rem;
+letter-spacing:normal;
+text-align: center;
+
+}
+.winkelen p {
+  margin-left: -30rem;
+}
+footer {
+  background-color: var(--third-color);
+  margin: 1rem;
+  line-height: 1.5rem;
+}
+.footer-p p {
+  margin-left: 10rem;
+  font-family: 'Spectral', serif;
+  color: rgba(45, 62, 80, 0.774);
+
+
+}
+.list-footer {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+  
+}
+footer li a {
+  color: rgb(136, 112, 112);
+  margin-right: 4.8rem;
 }
